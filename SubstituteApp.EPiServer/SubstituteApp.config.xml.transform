@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<substitutes>
+  <substitute name="episerver.config">
+    <templatefile>episerver.config.config</templatefile>
+    <substitutefile>episerver.config.substitute.xml</substitutefile>
+    <resultfile>episerver.config</resultfile>
+  </substitute>
+  <substitute name="EPiServerFramework.config">
+    <templatefile>EPiServerFramework.config.config</templatefile>
+    <substitutefile>EPiServerFramework.config.substitute.xml</substitutefile>
+    <resultfile>EPiServerFramework.config</resultfile>
+  </substitute>
+  <substitute name="connectionStrings.config">
+    <templatefile>connectionStrings.config.config</templatefile>
+    <substitutefile>connectionStrings.config.substitute.xml</substitutefile>
+    <resultfile>connectionStrings.config</resultfile>
+  </substitute>
+</substitutes>

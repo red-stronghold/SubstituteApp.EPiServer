@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SubstituteApp.EPiServer", "SubstituteApp.EPiServer\SubstituteApp.EPiServer.csproj", "{497D9C5A-9C5F-4139-97D5-02EF66E3815C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NuGet", "NuGet", "{02039E67-1AE8-482C-B827-10FC5BAE0642}"
+	ProjectSection(SolutionItems) = preProject
+		SubstituteApp.EPiServer.nuspec = SubstituteApp.EPiServer.nuspec
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Build script", "Build script", "{ACCDAC9F-6A66-4C82-9326-6C92EDD8990D}"
+	ProjectSection(SolutionItems) = preProject
+		build.bat = build.bat
+		build.boo = build.boo
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{497D9C5A-9C5F-4139-97D5-02EF66E3815C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{497D9C5A-9C5F-4139-97D5-02EF66E3815C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{497D9C5A-9C5F-4139-97D5-02EF66E3815C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{497D9C5A-9C5F-4139-97D5-02EF66E3815C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

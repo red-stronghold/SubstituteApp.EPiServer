@@ -1,0 +1,26 @@
+﻿Version History
+---------------------------------------------------------------------------------
+
+Version		Change made by		Date	Description
+---------------------------------------------------------------------------------
+1.0.1		johan.redborg		?				Substitute.EPiServer created
+												web.config.config added
+												NuGet support added
+---------------------------------------------------------------------------------
+1.0.2		johan.redborg		?				Added templates and 
+												substitution files for 
+												episerver.config,
+												connectionStrings.config,
+												EPiServerFramework.config
+---------------------------------------------------------------------------------
+1.0.3-1.0.6	johan.redborg		?				Not functional versions
+---------------------------------------------------------------------------------
+1.0.7		johan.redborg		?				Removed web.config support as
+												it has moved to SubstituteApp.
+---------------------------------------------------------------------------------
+1.0.8		johan.redborg		2012-03-28		Added dependency of substitute
+												files to the template files in
+												project file structure.
+---------------------------------------------------------------------------------
+1.0.9		johan.redborg		2012-05-11		Rename to SubstituteApp.EPiServer
+---------------------------------------------------------------------------------

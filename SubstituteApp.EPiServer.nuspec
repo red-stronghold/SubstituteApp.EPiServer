@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package>
+  <metadata>
+    <id>SubstituteApp.EPiServer</id>    
+    <title>SubstituteApp.EPiServer</title>
+    <version>1.0.9</version>
+    <authors>Johan Redborg</authors>
+    <description>Basic setup for configuration substitution when using EPiServer CMS 6.</description>
+    <dependencies>
+      <dependency id="SubstituteApp" version="2.1.2" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="build\*.config.config" target="content" />
+    <file src="build\*.xml" target="content" />
+    <file src="build\*.transform" target="content" />
+    <file src="build\install.ps1" target="tools" />
+  </files>
+</package>
