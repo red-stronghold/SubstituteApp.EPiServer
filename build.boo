@@ -27,7 +27,7 @@ target nuget_pack:
     exec("Libraries/Phantom/lib/nuget/NuGet.exe", "pack ${nuspecfile} /o ${nuget_folder}")
 
 target nuget_push, (nuget_pack):
-    exec("Libraries/Phantom/lib/nuget/NuGet.exe", "push ${nuget_folder}SubstituteApp.EPiServer.1.0.9.nupkg")
+    exec("Libraries/Phantom/lib/nuget/NuGet.exe", "push ${nuget_folder}SubstituteApp.EPiServer.1.0.10.nupkg")
 
 
 target prepare_folders:

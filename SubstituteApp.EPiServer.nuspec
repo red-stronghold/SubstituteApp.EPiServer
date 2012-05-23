@@ -3,11 +3,14 @@
   <metadata>
     <id>SubstituteApp.EPiServer</id>    
     <title>SubstituteApp.EPiServer</title>
-    <version>1.0.9</version>
+    <version>1.0.10</version>
     <authors>Johan Redborg</authors>
+    <projectUrl>http://red-stronghold.github.com/</projectUrl>
+    <licenseUrl>http://www.opensource.org/licenses/mit-license.html</licenseUrl>
     <description>Basic setup for configuration substitution when using EPiServer CMS 6.</description>
+    <releaseNotes>Updated Project site link and License link, no code changes.</releaseNotes>
     <dependencies>
-      <dependency id="SubstituteApp" version="2.1.2" />
+      <dependency id="SubstituteApp" version="2.1.3" />
     </dependencies>
   </metadata>
   <files>
